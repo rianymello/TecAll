@@ -1,12 +1,35 @@
 * {
-    box-sizing: border-box;
     margin: 0px;
+    padding-right:0px;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-color: #0d1117;
+    background-color: #04050b;
+    
+}
+.header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: #cfcfcf solid 0.1px;
 }
 
-h1 {
+.logo-cabecalho {
     color: #cfcfcf;
+   
 }
+
+
+.item-menu {
+    color: #cfcfcf;
+    margin: 50px;
+}
+
