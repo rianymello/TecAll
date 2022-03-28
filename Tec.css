@@ -33,3 +33,36 @@ body {
     margin: 50px;
 }
 
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-left:200px;
+}
+
+.imagem {
+    width: 550px;
+    height: auto;
+}
+.quadrado-colorido {
+ background-color: #04275c;
+   width: 550px;
+   height: 350px;
+   margin-left:-150px;
+   margin-top: 200px;
+
+}
+
+.conteudo-principal-escrito {
+     color:#cfcfcf;
+      margin: 30px;
+}
+
+.conteudo-principal-titulo {
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.conteudo-principal-texto {
+    line-height: 25px;
+}
